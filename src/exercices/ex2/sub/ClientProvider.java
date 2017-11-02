@@ -9,11 +9,11 @@ public class ClientProvider {
 		List<Client> clients = new ArrayList<Client>();
 		
 		Client c1 = new Client("Beri Kameu", 51);
-		Client c2 = new Client("Granudal BARQUET", 34);
+		Client c2 = new Client("Granudal Barquet", 34);
 		Client c3 = new Client("Rasmussen YU", 37);
 		Client c4 = new Client("Mohaw Xand", 47);
 		Client c5 = new Client("Jismac Trabalo", 41);
-		Client c6 = new Client("Hamelia Papa", 24);
+		Client c6 = new Client("Hamelia Papanoglu", 24);
 		Client c7 = new Client("Kosmed Kupa", 54);
 		Client c8 = new Client("Cran Couac", 42);
 		Client c9 = new Client("Periplo Radox", 39);
@@ -46,6 +46,17 @@ public class ClientProvider {
 		c7.getComptes().add(new Compte(TypeCompte.LIVRETA, 489));
 		c8.getComptes().add(new Compte(TypeCompte.LIVRETA, 874));
 		c9.getComptes().add(new Compte(TypeCompte.LIVRETA, 2854));
+		
+		clients.add(c1);
+		clients.add(c2);
+		clients.add(c3);
+		clients.add(c4);
+		clients.add(c5);
+		clients.add(c6);
+		clients.add(c7);
+		clients.add(c8);
+		clients.add(c9);
+		clients.add(c10);
 		
 		return clients;
 	}

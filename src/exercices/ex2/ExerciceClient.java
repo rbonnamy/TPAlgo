@@ -1,5 +1,11 @@
 package exercices.ex2;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
+import exercices.ex2.sub.Client;
+import exercices.ex2.sub.ClientProvider;
+
 public class ExerciceClient {
 
 	public static void main(String[] args){
